@@ -1,0 +1,34 @@
+*{
+	marign:0;
+	padding:0;
+}
+
+body{/*Endast ok om ha en bakgrundsbild på hela sidan eller om andra globala regler ska gälla*/}
+
+/*header{
+	width: 100%;
+}
+
+h1{
+	text-align:left;*/
+	
+}
+nav{
+	text-align: center;
+
+	/*width:50%;
+	display: flex;
+	align-items: center;
+	list-style: none;*/
+}
+
+
+
+footer{}
+.tfooter {}
+
+th{
+	text-align: center;
+	font-family: "gilroy";
+	padding: 30px;
+}

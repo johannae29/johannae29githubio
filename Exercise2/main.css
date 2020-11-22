@@ -1,0 +1,175 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: background:#2c475e;
+}
+
+.backgroundImage{
+	background-image: url(img/thai-basil.jpg); 
+	background-size: 100%;
+}
+
+/*---- Navigation ----*/	
+nav{
+	display:flex;
+	width: 100%;
+	background:#2c475e;
+	color: #eaeaeb;
+}
+nav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+nav ul{
+	margin: auto;
+	padding: 25px;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color: #eaeaeb;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:active{
+	text-decoration: underline; 
+}
+.fas {
+    padding-right: 5px;
+}
+
+
+/*---- Main Text ----*/
+div.mainText{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+	color: white;
+	font-size: larger;
+}
+.mainText ul {
+	list-style-type: none;
+	padding: 10px;
+}
+.mainText li{
+	padding: 8px;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+/*---- Menu ----*/
+.soup, .fried, .stews, .nudelWok, .woked, .starters {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.soup{ 
+  	background-image: url(img/curry.jpg);
+  	min-height:50%;
+}
+.fried{ 
+  	background-image: url(img/satay-chicken.jpg);
+  	min-height:400px;
+}
+.stews{ 
+  	background-image: url(img/pad-thai2.jpg);
+  	min-height:400px;
+}
+.nudelWok{
+  	background-image: url(img/thai-basil.jpg);
+  	min-height:400px;
+}
+.woked{
+  	background-image: url(img/thai-curry.jpg);
+  	min-height:400px;
+}
+.starters{
+	background-image: url(img/chickenandbeans.jpg);
+  	min-height:400px;
+}
+.menu{
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2c475e;
+    padding: 20px;
+}
+section.menuSection{
+	text-align: center;
+	padding: 50px 80px;
+	background-color:#2c475e;
+	color:white;
+}
+
+.foodMenuList dl{
+	text-align: left;
+}
+.foodMenuList dt{
+	padding: 10px;
+	text-transform: uppercase;
+	color: crimson;
+}
+
+/* ---- Footer ----*/
+footer.footerLists{	
+	background:#2c475e;
+	color: #eaeaeb;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	color: white;
+  	border-top-style: solid;
+  	border-top-width: 1px;
+  	border-color: crimson;
+}
+.listFooter{
+	list-style-type: none;
+	display: inline-block;
+}
+footer ul{
+	display: inline;
+}
+.listFooter li{
+	margin-top: 5px;
+}
+
+/*---- Mobile Navigation ----*/
+nav.mobileNav{
+		display: none;
+	}
+
+
+/*600px - mobil, 900px - tablet, 1200px - other*/
+@media only screen and (max-width: 600px){
+
+	body{
+		background-color: white;
+	}
+
+	nav.mainNav{
+		display: none;
+	}
+	nav.mobileNav{
+		display: block;
+	}
+
+}
+
+
+
